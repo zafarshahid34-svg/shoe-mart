@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f5f6f8;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: black;
+  color: white;
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h2 {
+  font-size: 72px;
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+  background: radial-gradient(circle at center, #111 0%, #000 70%);
+  color: white;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.hero button {
+  margin-top: 25px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero button:hover {
+  background: #f2f2f2;
+  transform: translateY(-2px);
+}
+/* SECTIONS */
+
+section {
+  padding: 60px 80px;
+}
+
+/* CATEGORY BUTTONS */
+
+.category-wrapper {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.category-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-btn:hover {
+  background: #3b82f6;
+}
+
+/* PRODUCT CARD */
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 70px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
+}
+
+.navbar {
+  background: black;
+  color: white;
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.product-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
