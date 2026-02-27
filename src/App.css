@@ -122,3 +122,14 @@ section {
   border-radius: 12px;
   margin-bottom: 15px;
 }
+.image-gallery {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.image-gallery img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}

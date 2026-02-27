@@ -5,14 +5,71 @@ function App() {
 
   const [selectedCategory, setSelectedCategory] = useState(null);
   const products = [
-  { name: "Black Formal Shoe", category: "formal", price: "₹1999" },
-  { name: "Brown Leather Formal", category: "formal", price: "₹2499" },
+  {
+    name: "Black Formal Shoe",
+    category: "formal",
+    price: "₹1999",
+    images: [
+      "/Images/Formal/formal1.jpg",
+      "/Images/Formal/formal2.jpg",
+      "/Images/Formal/formal3.jpg"
+    ]
+  },
 
-  { name: "White Sneakers", category: "sneakers", price: "₹1799" },
-  { name: "Street Style Sneakers", category: "sneakers", price: "₹1899" },
+  {
+    name: "Brown Leather Formal",
+    category: "formal",
+    price: "₹2199",
+    images: [
+      "/Images/Formal/formal1.jpg",
+      "/Images/Formal/formal2.jpg",
+      "/Images/Formal/formal3.jpg"
+    ]
+  },
 
-  { name: "Running Shoes", category: "sports", price: "₹1599" },
-  { name: "Training Shoes", category: "sports", price: "₹1699" }
+  {
+    name: "White Sneakers",
+    category: "sneakers",
+    price: "₹1499",
+    images: [
+      "/Images/Casual/casual1.jpg",
+      "/Images/Casual/casual2.jpg",
+      "/Images/Casual/casual3.jpg"
+    ]
+  },
+
+  {
+    name: "Street Style Sneakers",
+    category: "sneakers",
+    price: "₹1699",
+    images: [
+      "/Images/Casual/casual1.jpg",
+      "/Images/Casual/casual2.jpg",
+      "/Images/Casual/casual3.jpg"
+    ]
+  },
+
+  {
+    name: "Running Shoes",
+    category: "sports",
+    price: "₹1599",
+    images: [
+      "/Images/Sports/sports1.jpg",
+      "/Images/Sports/sports2.jpg",
+      "/Images/Sports/sports3.jpg"
+    ]
+  },
+
+  {
+    name: "Training Shoes",
+    category: "sports",
+    price: "₹1799",
+    images: [
+      "/Images/Sports/sports1.jpg",
+      "/Images/Sports/sports2.jpg",
+      "/Images/Sports/sports3.jpg"
+    ]
+  }
 ];
   return (
     <div>
@@ -72,12 +129,18 @@ function App() {
       .filter((product) => product.category === selectedCategory)
       .map((product, index) => (
         <div key={index} className="card">
-
-  <img 
-    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
-    alt="shoe"
+<div className="image-gallery">
+  {product.images.map((img, i) => (
+  <img
+    key={i}
+    src={`/Images/${product.category}/${img}`}
+    alt={product.name}
     className="product-image"
   />
+))}
+
+</div>
+
 
   <h3>{product.name}</h3>
   <p>{product.price}</p>
