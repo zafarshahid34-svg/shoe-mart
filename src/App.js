@@ -185,9 +185,13 @@ function App() {
 
 <p>
   Dharamshala Road, Near New Titan Show Room
+
 City: Sasaram 
+
 District: Rohtas
+
 State: Bihar 
+
 Pin: 821115
 </p>
 
