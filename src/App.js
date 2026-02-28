@@ -33,13 +33,11 @@ function App() {
   },
 
   {
-    name: "White Sneakers",
+    name: "Beige Sneakers",
     category: "sneakers",
     price: "₹1499",
     images: [
       "/Images/casual/casual1.jpg",
-      "/Images/casual/casual2.jpg",
-      "/Images/casual/casual3.jpg"
     ]
   },
 
@@ -48,7 +46,6 @@ function App() {
     category: "sneakers",
     price: "₹1699",
     images: [
-      "/Images/casual/casual1.jpg",
       "/Images/casual/casual2.jpg",
       "/Images/casual/casual3.jpg"
     ]
