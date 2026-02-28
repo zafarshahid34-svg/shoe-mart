@@ -56,7 +56,7 @@ function App() {
     category: "sneakers",
     price: "₹1899",
     images: [
-      "/Images/casual/casual4.jpg"
+      "/Images/casual/casual4.jpeg"
     ]
   },
 
