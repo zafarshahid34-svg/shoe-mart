@@ -185,11 +185,10 @@ function App() {
 
 <p>
   Dharamshala Road, Near New Titan Show Room
-  City: Sasaram <br/>
-  District: Rohtas <br/>
-  State: Bihar <br/>
-  Pin: 821115 <br/>
-  Contact: +919625950115
+City: Sasaram 
+District: Rohtas
+State: Bihar 
+Pin: 821115
 </p>
 
   <h3>Instagram</h3>
