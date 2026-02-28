@@ -10,9 +10,9 @@ function App() {
     category: "formal",
     price: "₹1999",
     images: [
-      "/Images/Formal/formal1.jpg",
-      "/Images/Formal/formal2.jpg",
-      "/Images/Formal/formal3.jpg"
+      "/Images/formal/formal1.jpg",
+      "/Images/formal/formal2.jpg",
+      "/Images/formal/formal3.jpg"
     ]
   },
 
@@ -21,9 +21,9 @@ function App() {
     category: "formal",
     price: "₹2199",
     images: [
-      "/Images/Formal/formal1.jpg",
-      "/Images/Formal/formal2.jpg",
-      "/Images/Formal/formal3.jpg"
+      "/Images/formal/formal1.jpg",
+      "/Images/formal/formal2.jpg",
+      "/Images/formal/formal3.jpg"
     ]
   },
 
