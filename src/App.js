@@ -133,7 +133,7 @@ function App() {
   {product.images.map((img, i) => (
   <img
     key={i}
-    src={`/Images/${product.category}/${img}`}
+    src={img}
     alt={product.name}
     className="product-image"
   />
