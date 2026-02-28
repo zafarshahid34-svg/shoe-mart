@@ -32,9 +32,9 @@ function App() {
     category: "sneakers",
     price: "₹1499",
     images: [
-      "/Images/Casual/casual1.jpg",
-      "/Images/Casual/casual2.jpg",
-      "/Images/Casual/casual3.jpg"
+      "/Images/casual/casual1.jpg",
+      "/Images/casual/casual2.jpg",
+      "/Images/casual/casual3.jpg"
     ]
   },
 
@@ -43,9 +43,9 @@ function App() {
     category: "sneakers",
     price: "₹1699",
     images: [
-      "/Images/Casual/casual1.jpg",
-      "/Images/Casual/casual2.jpg",
-      "/Images/Casual/casual3.jpg"
+      "/Images/casual/casual1.jpg",
+      "/Images/casual/casual2.jpg",
+      "/Images/casual/casual3.jpg"
     ]
   },
 
@@ -54,9 +54,9 @@ function App() {
     category: "sports",
     price: "₹1599",
     images: [
-      "/Images/Sports/sports1.jpg",
-      "/Images/Sports/sports2.jpg",
-      "/Images/Sports/sports3.jpg"
+      "/Images/sports/sports1.jpg.jpeg",
+      "/Images/sports/sports2.jpg.jpeg",
+      "/Images/sports/sports3.jpg.jpeg"
     ]
   },
 
@@ -65,9 +65,9 @@ function App() {
     category: "sports",
     price: "₹1799",
     images: [
-      "/Images/Sports/sports1.jpg",
-      "/Images/Sports/sports2.jpg",
-      "/Images/Sports/sports3.jpg"
+      "/Images/sports/sport1.jpg.jpeg",
+      "/Images/sports/sport2.jpg.jpeg",
+      "/Images/sports/sport3.jpg"
     ]
   }
 ];
