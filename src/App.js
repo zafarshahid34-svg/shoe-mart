@@ -184,11 +184,12 @@ function App() {
   <h3>Store Address</h3>
 
 <p>
-  Dharam Shala Road, Near New Titan Show Room, Sasaram <br/>
+  Dharamshala Road, Near New Titan Show Room, 
+  City: Sasaram <br/>
   District: Rohtas <br/>
   State: Bihar <br/>
   Pin: 821115 <br/>
-  Contact: 9625950115
+  Contact: +919625950115
 </p>
 
   <h3>Instagram</h3>
