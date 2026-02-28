@@ -51,6 +51,15 @@ function App() {
     ]
   },
 
+{
+    name: "Mocha Sneakers",
+    category: "sneakers",
+    price: "₹1899",
+    images: [
+      "/Images/casual/casual4.jpg"
+    ]
+  },
+
   {
     name: "White Sports Shoes",
     category: "sports",
