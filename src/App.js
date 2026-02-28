@@ -56,7 +56,7 @@ function App() {
     images: [
       "/Images/sports/sport1.jpg.jpeg",
       "/Images/sports/sport2.jpg.jpeg",
-      "/Images/sports/sport3.jpg.jpeg"
+      "/Images/sports/sport3.jpg"
     ]
   },
 
