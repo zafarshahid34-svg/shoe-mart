@@ -99,6 +99,8 @@ function App() {
       <section className="hero">
         <h1>Step Into Style</h1>
         <p>Premium men's shoes — Formal, Sneakers & Everyday Comfort.</p>
+                <p>Your Comfort—Our Passion!</p>
+
         <button
   onClick={() => {
     document.getElementById("products").scrollIntoView({ behavior: "smooth" });
