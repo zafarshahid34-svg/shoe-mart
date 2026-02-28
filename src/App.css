@@ -42,6 +42,7 @@ body {
 .hero p {
   font-size: 18px;
   opacity: 0.85;
+  font-family: "Playfair Display", serif;
 }
 
 .hero button {
