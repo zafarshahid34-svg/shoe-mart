@@ -54,9 +54,9 @@ function App() {
     category: "sports",
     price: "₹1599",
     images: [
-      "/Images/sports/sports1.jpg.jpeg",
-      "/Images/sports/sports2.jpg.jpeg",
-      "/Images/sports/sports3.jpg.jpeg"
+      "/Images/sports/sport1.jpg.jpeg",
+      "/Images/sports/sport2.jpg.jpeg",
+      "/Images/sports/sport3.jpg.jpeg"
     ]
   },
 
