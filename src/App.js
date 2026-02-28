@@ -52,23 +52,28 @@ function App() {
   },
 
   {
-    name: "Running Shoes",
+    name: "White Sports Shoes",
     category: "sports",
-    price: "₹1599",
+    price: "₹1699",
     images: [
       "/Images/sports/sport1.jpg.jpeg",
-      "/Images/sports/sport2.jpg.jpeg",
-      "/Images/sports/sport3.jpg"
     ]
   },
 
   {
-    name: "Training Shoes",
+    name: "Tuledai Sports Shoes",
+    category: "sports",
+    price: "₹1599",
+    images: [
+      "/Images/sports/sport2.jpg.jpeg",
+    ]
+  },
+
+  {
+    name: "Wolf Sports Shoes",
     category: "sports",
     price: "₹1799",
     images: [
-      "/Images/sports/sport1.jpg.jpeg",
-      "/Images/sports/sport2.jpg.jpeg",
       "/Images/sports/sport3.jpg"
     ]
   }
