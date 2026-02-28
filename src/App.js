@@ -184,7 +184,7 @@ function App() {
   <h3>Store Address</h3>
 
 <p>
-  Dharamshala Road, Near New Titan Show Room, 
+  Dharamshala Road, Near New Titan Show Room
   City: Sasaram <br/>
   District: Rohtas <br/>
   State: Bihar <br/>
