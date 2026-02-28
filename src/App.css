@@ -34,9 +34,10 @@ body {
   color: white;
 }
 .hero h1 {
-  font-size: 48px;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
-  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-size: 56px;
 }
 
 .hero p {
